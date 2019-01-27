@@ -1,0 +1,24 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Folders #
+######################
+nbproject
+client/assets/compiledTemplates
+client/assets/lib
+client/assets/css
+node_modules
+dist
+rel
+tmp
+target
+coverage
+
+# Misc #
+######################
+npm-debug.log
+atlassian-ide-plugin.xml
+.babelcache

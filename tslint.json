@@ -1,0 +1,3 @@
+{
+  "extends": "@d3banking/tslint-config"
+}

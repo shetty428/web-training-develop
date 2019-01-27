@@ -1,0 +1,49 @@
+$white: #FFF;
+
+/**************
+* SDK Components
+**************/
+
+@mixin borderRadius() {
+  border-radius: 5px;
+}
+
+.section-header {
+  @include borderRadius();
+  font-size: 1rem;
+}
+
+.widget {
+  @include borderRadius();
+}
+
+button.default, button.primary, button.secondary, button.call-to-action {
+  @include borderRadius();
+}
+
+
+/**************
+* Other Components
+**************/
+
+// Accounts Dashboard "Welcome Back" text size
+.welcome-back-user {
+  font-size: 3rem;
+}
+
+// Accounts Dashboard "Open Account" widget
+.open-account-widget {
+  background-color: $white;
+  @include borderRadius();
+}
+
+// Common layout updates
+.section-container-split {
+  .left-column {
+    border-right: none;
+  }
+
+  .right-column {
+    background-color: $white;
+  }
+}
